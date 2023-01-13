@@ -7,7 +7,8 @@ import { getDateMinusDays } from "../../util/date";
 import { getExpenses } from "../../util/http";
 
 const RecentExpenses = () => {
-
+ 
+    
     const expenseCtx = useContext(ExpensesContext)
     const [isLoading, setIsLoading] = useState(true)
     const [isError, setIsError] = useState<any>()
