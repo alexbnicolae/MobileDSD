@@ -8,6 +8,7 @@ type AddExpensePropsType = {
     date: Date | string,
 }
 
+
 type ExpensesContextProviderPropsType = {
     children: any,
 }
